@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    width: 100% ;
+    height: 400px;
+    padding: 75px;
+    background-color: aquamarine;
+}
+
+.title{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.title-question{
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    letter-spacing: -2px;
+}
+
+.title-paragraph{
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    line-height: 30px;
+    text-align: center;
+    max-width: 792px;
+}
