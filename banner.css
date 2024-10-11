@@ -1,0 +1,204 @@
+/* ----- configurações globais ---*/
+
+.inter-uniquifier> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+  :root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+    --h2-metric:  #101828;
+
+  }
+
+
+*{  
+    font-family: "Inter";
+    color: var(--text-color);
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+/*----- Cabeçalho ------*/
+
+.container{
+        
+    display: flex;
+    justify-content: space-around;
+     
+    padding: 20px;
+}
+
+
+    
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    
+    align-items: center;    
+    width: 200px;
+    height: 40px;
+}
+
+.imagem{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left:5px ;
+    
+ 
+}
+.logo-title{
+    margin:10px;
+    font-size: 18px;
+    
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.select{
+    display: flex;    
+    align-items: center;
+    
+    width: 100vh;
+    height: 40px;
+    gap: 38px;
+    padding-left: 10px;
+    
+}
+
+.butonn{
+    
+    display: flex;  
+    
+    align-items: center;
+    gap:  5px;
+    height: 30px;
+}
+
+.btn-cadastro{
+    
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    background-color:  #8E2424; 
+    color: aliceblue;
+    border-radius: 10px;
+    
+}
+
+.btn-entrar{
+    
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    color: var(--text-color);
+    border-radius: 10px;
+    
+}
+.inter-uniquifier> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+  /*----- banner config ----*/
+
+.banner{
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    width: 100% ;
+    height: 40vh;
+    
+    
+}
+
+.title{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 600;
+    margin: 16px;
+}
+
+.title-question{
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    margin: 16px;
+    letter-spacing: -2px;
+}
+
+.title-paragraph{
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    margin: 16px;
+    line-height: 30px;
+    text-align: center;
+    max-width: 792px;
+}
+
+/* ------metricas----*/
+.container-metrica{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 20vh;
+    
+}
+
+.metricas-conteudo{
+    width: 200px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: 0;
+}
+
+.metricas-conteudo h1{
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -2;
+    color: var(--main-color);
+    font-family: "Inter", sans-serif;
+
+}
+
+.metricas-conteudo h2{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;    
+    color: var(--h2-metric);
+    font-family: "Inter", sans-serif; 
+
+}
+
+.metricas-conteudo p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;    
+    color: var(--text-color);
+    font-family: "Inter", sans-serif; 
+
+}
